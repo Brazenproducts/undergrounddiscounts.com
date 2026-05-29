@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Underground Discounts — The Deals They Don't Want You to Find</title>
+<meta name="description" content="About Underground Discounts — who we are, what we do, and why we built the best curated deals site on the internet.">
+<link rel="canonical" href="https://undergrounddiscounts.com/about.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;line-height:1.6}
+a{color:#00ff88;text-decoration:none}
+a:hover{text-decoration:underline}
+.ticker-wrap{background:#00ff88;overflow:hidden;padding:8px 0;position:relative}
+.ticker-track{display:flex;white-space:nowrap;animation:ticker 30s linear infinite}
+.ticker-track span{font-family:'Oswald',sans-serif;font-size:.85em;font-weight:600;color:#0d0d0d;padding:0 40px;letter-spacing:.5px}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+header{background:#111;border-bottom:2px solid #1a1a1a;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;position:sticky;top:0;z-index:100}
+.logo{font-family:'Oswald',sans-serif;font-size:1.6em;font-weight:700;color:#00ff88;letter-spacing:-1px}
+.logo span{color:#ff3c00}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:#aaa;font-size:.85em;font-weight:500;text-transform:uppercase;letter-spacing:.5px;transition:color .2s}
+nav a:hover{color:#00ff88;text-decoration:none}
+.page-hero{background:linear-gradient(135deg,#0d0d0d 0%,#111 40%,#0a1a0f 100%);padding:80px 24px 60px;text-align:center;border-bottom:1px solid #1a1a1a;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at center,rgba(0,255,136,.06) 0%,transparent 60%);pointer-events:none}
+.page-hero-eyebrow{font-family:'Oswald',sans-serif;font-size:.8em;font-weight:600;color:#00ff88;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
+.page-hero h1{font-family:'Oswald',sans-serif;font-size:clamp(2em,5vw,3.4em);font-weight:700;color:#fff;line-height:1.1;margin-bottom:16px;text-transform:uppercase}
+.page-hero h1 em{color:#00ff88;font-style:normal}
+.page-hero p{font-size:1.1em;color:#888;max-width:560px;margin:0 auto}
+.container{max-width:800px;margin:0 auto;padding:0 24px}
+.content-section{padding:60px 0}
+.content-block{background:#111;border:1px solid #1a1a1a;border-radius:10px;padding:40px;margin-bottom:24px}
+.content-block h2{font-family:'Oswald',sans-serif;font-size:1.4em;font-weight:700;color:#00ff88;text-transform:uppercase;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #1a1a1a}
+.content-block p{color:#aaa;margin-bottom:14px;line-height:1.8}
+.content-block p:last-child{margin-bottom:0}
+.content-block ul{color:#aaa;padding-left:20px;margin-bottom:14px}
+.content-block ul li{margin-bottom:10px;line-height:1.7}
+.highlight{color:#00ff88;font-weight:600}
+.stat-row{display:flex;gap:32px;flex-wrap:wrap;margin:24px 0}
+.stat-item{text-align:center;flex:1;min-width:120px}
+.stat-num{font-family:'Oswald',sans-serif;font-size:2em;font-weight:700;color:#00ff88}
+.stat-label{font-size:.8em;color:#555;text-transform:uppercase;letter-spacing:1px}
+.cta-block{background:#0a1a0f;border:1px solid #00ff88;border-radius:10px;padding:40px;text-align:center;margin-bottom:24px}
+.cta-block h2{font-family:'Oswald',sans-serif;font-size:1.6em;font-weight:700;color:#fff;text-transform:uppercase;margin-bottom:12px}
+.cta-block p{color:#888;margin-bottom:24px}
+.btn-primary{display:inline-block;background:#00ff88;color:#0d0d0d;font-family:'Oswald',sans-serif;font-weight:700;font-size:1em;padding:14px 32px;border-radius:4px;text-transform:uppercase;letter-spacing:1px;transition:background .2s}
+.btn-primary:hover{background:#00cc6a;text-decoration:none;color:#0d0d0d}
+.divider{border:none;border-top:1px solid #1a1a1a;margin:0}
+footer{background:#080808;border-top:1px solid #1a1a1a;padding:40px 24px;text-align:center}
+.footer-logo{font-family:'Oswald',sans-serif;font-size:1.4em;font-weight:700;color:#00ff88;margin-bottom:16px}
+.footer-links{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
+.footer-links a{color:#555;font-size:.85em;transition:color .2s}
+.footer-links a:hover{color:#00ff88;text-decoration:none}
+.footer-disclosure{font-size:.78em;color:#333;max-width:700px;margin:0 auto;line-height:1.6}
+#cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:1px solid #1a1a1a;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;z-index:9999;font-size:.85em}
+#cookie-banner button{background:#00ff88;color:#0d0d0d;border:none;padding:8px 20px;border-radius:4px;cursor:pointer;font-weight:700;font-family:'Oswald',sans-serif;font-size:.9em;text-transform:uppercase}
+@media(max-width:640px){nav{gap:12px}.page-hero h1{font-size:2em}.content-block{padding:24px}.stat-row{gap:16px}}
+</style>
+</head>
+<body>
+
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span>🔥 NEW DEALS ADDED DAILY</span>
+    <span>💰 SAVE BIG ON TOP BRANDS</span>
+    <span>🚗 AUTOMOTIVE DEALS</span>
+    <span>💪 HEALTH &amp; WELLNESS PICKS</span>
+    <span>🏠 HOME ESSENTIALS</span>
+    <span>⚡ TECH STEALS</span>
+    <span>🌿 OUTDOORS &amp; SURVIVAL</span>
+    <span>🔥 NEW DEALS ADDED DAILY</span>
+    <span>💰 SAVE BIG ON TOP BRANDS</span>
+    <span>🚗 AUTOMOTIVE DEALS</span>
+    <span>💪 HEALTH &amp; WELLNESS PICKS</span>
+    <span>🏠 HOME ESSENTIALS</span>
+    <span>⚡ TECH STEALS</span>
+    <span>🌿 OUTDOORS &amp; SURVIVAL</span>
+  </div>
+</div>
+
+<header>
+  <a href="/" class="logo">UNDERGROUND<span>DISCOUNTS</span></a>
+  <nav>
+    <a href="/categories/automotive.html">🚗 Auto</a>
+    <a href="/categories/health-wellness.html">💪 Health</a>
+    <a href="/categories/home-kitchen.html">🏠 Home</a>
+    <a href="/categories/tech-gadgets.html">⚡ Tech</a>
+    <a href="/categories/outdoors.html">🌿 Outdoors</a>
+    <a href="/categories/everyday-deals.html">💰 Everyday</a>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-eyebrow">// About Us</div>
+    <h1>The Deals They Don't<br><em>Want You to Find</em></h1>
+    <p>We built Underground Discounts because finding genuinely good deals shouldn't require a PhD in comparison shopping.</p>
+  </div>
+</div>
+
+<section class="content-section">
+  <div class="container">
+
+    <div class="content-block">
+      <h2>Who We Are</h2>
+      <p>Underground Discounts is a curated deals site built for people who want the best products at the best prices — without wading through sponsored garbage, fake reviews, and inflated "original prices."</p>
+      <p>We dig through thousands of products across Amazon and surface the ones that are actually worth your money. No fluff. No filler. No products we wouldn't buy ourselves.</p>
+      <div class="stat-row">
+        <div class="stat-item">
+          <div class="stat-num">6</div>
+          <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100+</div>
+          <div class="stat-label">Curated Deals</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">Daily</div>
+          <div class="stat-label">Updates</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">$0</div>
+          <div class="stat-label">Extra Cost to You</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <h2>How We Pick Deals</h2>
+      <p>Every product on Underground Discounts goes through a simple filter:</p>
+      <ul>
+        <li><span class="highlight">Real reviews.</span> We look at verified purchase reviews, not inflated star counts. If the reviews smell fake, the product doesn't make the cut.</li>
+        <li><span class="highlight">Actual value.</span> We compare prices across time. A "50% off" badge means nothing if the price was inflated to begin with.</li>
+        <li><span class="highlight">Brand reputation.</span> We favor established brands with track records — Chemical Guys, Meguiar's, Lodge, YETI, Anker, and others that have earned their reputation.</li>
+        <li><span class="highlight">Category relevance.</span> Every pick fits its category and solves a real problem. No random junk to pad the numbers.</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h2>How We Make Money</h2>
+      <p>Underground Discounts is supported by affiliate commissions. When you click a link on our site and make a purchase on Amazon, we earn a small percentage of the sale — at <span class="highlight">no extra cost to you</span>. You pay the same price you'd pay going directly to Amazon.</p>
+      <p>This is how we keep the lights on and keep the deals coming. We're transparent about it because we think you deserve to know. Our affiliate relationship with Amazon does not influence which products we feature — we only recommend things we'd actually buy.</p>
+      <p>Underground Discounts is a participant in the <strong>Amazon Services LLC Associates Program</strong>, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Our Categories</h2>
+      <ul>
+        <li>🚗 <strong>Automotive</strong> — Detailing kits, dash cams, diagnostic tools, accessories</li>
+        <li>💪 <strong>Health &amp; Wellness</strong> — Supplements, fitness gear, recovery tools</li>
+        <li>🏠 <strong>Home &amp; Kitchen</strong> — Appliances, cookware, storage, tools</li>
+        <li>⚡ <strong>Tech &amp; Gadgets</strong> — Electronics, accessories, peripherals</li>
+        <li>🌿 <strong>Outdoors &amp; Survival</strong> — Camping, hiking, survival gear</li>
+        <li>💰 <strong>Everyday Deals</strong> — Household essentials, cleaning, organization</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h2>Contact Us</h2>
+      <p>Have a deal tip? Found a broken link? Just want to say hi? We'd love to hear from you.</p>
+      <p>Email us at <span class="highlight">hello@undergrounddiscounts.com</span></p>
+    </div>
+
+    <div class="cta-block">
+      <h2>Ready to Find Your Deal?</h2>
+      <p>Browse our curated categories and find something worth buying today.</p>
+      <a href="/" class="btn-primary">Browse All Deals →</a>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<footer>
+  <div class="footer-logo">UNDERGROUND<span style="color:#ff3c00">DISCOUNTS</span></div>
+  <div class="footer-links">
+    <a href="/categories/automotive.html">Automotive</a>
+    <a href="/categories/health-wellness.html">Health &amp; Wellness</a>
+    <a href="/categories/home-kitchen.html">Home &amp; Kitchen</a>
+    <a href="/categories/tech-gadgets.html">Tech &amp; Gadgets</a>
+    <a href="/categories/outdoors.html">Outdoors</a>
+    <a href="/categories/everyday-deals.html">Everyday Deals</a>
+    <a href="/about.html">About</a>
+    <a href="/privacy.html">Privacy</a>
+  </div>
+  <div class="footer-disclosure">
+    Underground Discounts is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates. As an Amazon Associate we earn from qualifying purchases. You pay the same price — we earn a small commission.
+  </div>
+</footer>
+
+<div id="cookie-banner">
+  <span style="color:#888">We use cookies to improve your experience. <a href="/privacy.html">Privacy Policy</a></span>
+  <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ud_c','1')">Accept</button>
+</div>
+<script>if(localStorage.getItem('ud_c'))document.getElementById('cookie-banner').style.display='none';</script>
+
+</body>
+</html>
