@@ -2,51 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://undergrounddiscounts.com/</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/automotive.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/health-wellness.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/home-kitchen.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/tech-gadgets.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/outdoors.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/categories/everyday-deals.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://undergrounddiscounts.com/privacy.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url><loc>https://undergrounddiscounts.com/undergrounddiscounts-what-buyers-need-2026.html</loc><lastmod>2026-05-29</lastmod></url>
-  <url><loc>https://undergrounddiscounts.com/undergrounddiscounts-what-wed-buy-2026.html</loc><lastmod>2026-06-01</lastmod></url>
-  <url><loc>https://undergrounddiscounts.com/best-undergrounddiscounts-2026.html</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://undergrounddiscounts.com/undergrounddiscounts-buying-guide-2026.html</loc><lastmod>2026-06-06</lastmod></url>
 </urlset>
